@@ -2,7 +2,6 @@ const body = document.querySelector("body");
 
 const IMG_NUMBER = 1;
 
-
 function paintImage(imgNumber){
     const image = new Image();
     image.src = `${imgNumber + 1}.jpg`;

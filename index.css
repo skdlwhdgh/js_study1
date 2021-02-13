@@ -3,12 +3,29 @@ body {
 }
 
 h1 {
-    color: blueviolet;
+    color: whitesmoke;
+}
+
+.clock {
+    color: rgb(248, 74, 74);
+    /* object-position: 50%; */
+    /* left: 100; */
 }
 
 .form,
 .greetings {
     display: none;
+}
+
+
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
 }
 
 .bgImage{
@@ -21,11 +38,7 @@ h1 {
     animation: fadeIn 1s linear;
 }
 
-@keyframes fadeIn {
-    from {
-        opacity: 0;
-    }
-    to{
-        opacity: 1;
-    }
+.weather{
+    color:red;
+    font-size:  20pt;
 }
